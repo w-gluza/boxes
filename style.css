@@ -48,8 +48,8 @@ canvas  {
     width: 120px;
     height: 120px;
     background-color: #fff;
-    border: 1px solid #0000ff;
-    border-left: 1px dashed #0000ff;
+    outline: 1px solid #0000ff;
+    /* outline-left: 1px dashed #0000ff; */
 }
 
 .blue {
@@ -62,9 +62,9 @@ canvas  {
 }
 
 .blackSmall {
-    position: relative;
-    top: 0px; 
-    left: 60px;
+    position: absolute;
+    top: 20px; 
+    left: 80px;
     width: 20px;
     height: 20px;
     background-color: #000;
